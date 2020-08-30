@@ -1,0 +1,20 @@
+{
+	"name": "@calmdownval/mobx-preact",
+	"version": "0.0.1",
+	"license": "MIT",
+	"type": "commonjs",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"build": "rm -rf ./dist/* && tsc"
+	},
+	"peerDependencies": {
+		"mobx": "5.x.x",
+		"preact": "10.x.x"
+	},
+	"devDependencies": {
+		"mobx": "5.x.x",
+		"preact": "10.x.x",
+		"typescript": "3.9.x"
+	}
+}
